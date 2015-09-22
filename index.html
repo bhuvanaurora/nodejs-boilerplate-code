@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Socket.io chat</title>
+	</head>
+
+	<body>
+		<form id="nameForm">
+			<input type="text" placeholder="Your name" id="name">
+			<input type="submit" name="join" id="join" value="join">
+		</form>
+
+		<div id="main-chat-screen">
+			<div id="conversation">
+				<ul id="msgs"></ul>
+			</div>
+			<form id="chat-form">
+				<input type="text" placeholder="Your message" id="msg">
+				<input type="submit" name="send" id="send" value="Send">
+			</form>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+		<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+		<script src="/js/client.js"></script>
+	</body>
+</html>

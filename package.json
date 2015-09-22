@@ -1,0 +1,25 @@
+{
+  "name": "distributed-chat",
+  "version": "0.0.1",
+  "author": "Bhuvan <bhuvan.arora@paytm.com>",
+  "contributors": [
+    {}
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "minimist": "~1.2.0",
+    "async": "~1.4.2",
+    "socket.io": "~1.3.6",
+    "express": "~4.13.3",
+    "body-parser": "~1.13.3",
+    "express-validator": "~2.17.1",
+    "method-override": "~2.3.5",
+    "ejs": "~2.3.4",
+    "kafka-node": "~0.2.27"
+  },
+  "start": "node --use_strict --harmony server.js",
+  "private": true
+}
